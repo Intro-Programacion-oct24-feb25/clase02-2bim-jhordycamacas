@@ -19,7 +19,10 @@ public class Ejemplo03 {
 
         // arreglo de cadenas - 4 elementos
         String[] arreglo5 = {"Loja", "Quito", "Zamora", "Machala"};
-        System.out.println(arreglo5);
+        for (int i = 0; i < arreglo5.length; i++) {
+
+            System.out.println(arreglo5[i]);
+        }
     }
 
 }
